@@ -1,6 +1,6 @@
 {
   "name": "@basketry/dotfiles",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Shared dotfiles, dependencies, and scripts for Basketry projects",
   "bin": {
     "dotfiles-init": "init.sh"
