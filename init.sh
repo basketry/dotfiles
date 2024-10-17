@@ -7,7 +7,7 @@ jq '
     "clean:coverage": "rimraf coverage",
     "clean:output": "rimraf lib",
     "fix": "run-s -s fix:*",
-    "fix:eslint": "eslint --fix",
+    "fix:eslint": "eslint --fix --config ./node_modules/@basketry/dotfiles/eslint.config.mjs .",
     "fix:prettier": "prettier -w . --config ./node_modules/@basketry/dotfiles/.prettierrc --ignore-path .gitignore",
     "lint": "run-s -s lint:*",
     "lint:eslint": "eslint --config ./node_modules/@basketry/dotfiles/eslint.config.mjs .",
